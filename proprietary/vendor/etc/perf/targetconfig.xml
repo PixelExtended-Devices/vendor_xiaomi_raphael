@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
- * Copyright (c) 2017-2018 Qualcomm Technologies, Inc.
+ * Copyright (c) 2017-2020 Qualcomm Technologies, Inc.
  * All Rights Reserved.
  * Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -43,10 +43,10 @@
     <Config1>
 
          <TargetInfo
-             Target="msmnile"
+             Target="lahaina"
              NumClusters="3"
              TotalNumCores="8"
-             SocIds="339,361,362,367"
+             SocIds="415,439,456,501,502"
              SynCore="1"
              CoreCtlCpu="4"
              MinCoreOnline="0"
@@ -58,4 +58,57 @@
 
     </Config1>
 
+    <Config2>
+         <TargetInfo
+             Target="shima"
+             NumClusters="3"
+             TotalNumCores="8"
+             SocIds="450"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             MinFpsForTuning="60" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="3" Type="big" />
+         <ClustersInfo Id="2" NumCores="1" Type="prime" />
+
+    </Config2>
+
+    <Config3>
+         <TargetInfo
+             Target="yupik"
+             NumClusters="3"
+             TotalNumCores="8"
+             SocIds="475,497,498,499,515"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             MinFpsForTuning="60" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="3" Type="big" />
+         <ClustersInfo Id="2" NumCores="1" Type="prime" />
+
+    </Config3>
+
+    <Config4>
+         <TargetInfo
+             Target="katmai"
+             NumClusters="2"
+             TotalNumCores="8"
+             SocIds="575,576"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             MinFpsForTuning="60" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
+
+    </Config4>
+    
 </TargetConfig>
